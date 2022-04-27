@@ -32,3 +32,23 @@ a {
 span {
     font-style: italic;
 }
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p::first-letter {
+    font-size: 20px;
+}
+
+dl {
+    margin-top: 5px;
+}
+
+dt {
+    color: yellow;
+}
