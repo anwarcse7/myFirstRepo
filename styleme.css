@@ -1,0 +1,34 @@
+body {
+    background: #3c3c3c;
+    color: aliceblue;
+}
+
+h1 {
+    font-size: 36pt;
+    color: rgb(62, 153, 214);
+}
+
+p {
+    color: aliceblue;
+}
+
+p span {
+    color: yellow;
+}
+
+h2 {
+    color: rgb(62, 153, 214);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+a {
+    color: red;
+}
+
+span {
+    font-style: italic;
+}
