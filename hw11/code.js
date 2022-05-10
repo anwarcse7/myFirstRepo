@@ -1,7 +1,8 @@
-String.prototype.filter = function (banned) {
-    let word = this.split(" ");
-    return word.filter((x) => !banned.includes(s).reduce((a, b) => a + " " + b));
+String.prototype.filter = function(bannedWords){
+    let splitted = this.split(" ");
+    return splitted.filter((x) => !bannedWords.includes(x)).reduce((a,b)=> a + " " + b);
 }
+
 
 Array.prototype.bubbleSort = function(){
     let toBeSorted = this;
