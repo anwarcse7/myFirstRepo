@@ -24,7 +24,7 @@ app.post('/result', (req, res, next)=>{
 })
 
 
-app.listen(3000, () => {
+app.listen(3001, () => {
     //all of your code are here, this is what will happen in server
     console.log('Running server on port : 3000 .....');
 });
